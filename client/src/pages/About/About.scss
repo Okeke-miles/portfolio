@@ -11,10 +11,24 @@
 
 .flip-box__style{
   background-color: transparent;
-  width: 300px;
-  height: 200px;
-  border: 1px solid #f1f1f1;
+  width: 100%;
+  height: 400px;
+//   border: 1px solid #f1f1f1;
   perspective: 1000px; 
+}
+
+.about-desc__style{
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.dev-image__style{
+    width: 9rem;
+    height: 8rem;
+}
+
+.cont-desc__style{
+    margin: 1rem 0;
 }
 
 .flip-box__inner{
@@ -64,13 +78,27 @@
 
 .front-end__style{
     border-radius: 10px;
-    background-color: $raisin-black;
-    color: $white;
+    color: $raisin-black;
+    background-color: $white;
+ 
 }
 
 .back-end__style{
     transform: rotateY(180deg);
     border-radius: 10px;
-    background-color: $white;
-    color: $raisin-black;
+    color: $white;
+    background-color: $raisin-black;
+}
+
+.frontend-tools__style, .backend-tools__style{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    flex-flow:wrap;
+}
+
+.frontend-title__style, .backend-title__style{
+    margin: 2rem 0;
+    padding-bottom: 2rem;
 }

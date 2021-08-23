@@ -10,11 +10,22 @@
 }
 
 .header__style, .header-desc__style{
-    // color: $white;
     margin-left: 10rem;
+    padding-top: 1.5rem;
 }
 .home-desc__style{
     background: url(../../assets/bridge.jpg) center no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 80vh;
+}
+
+.new-desc__style{
+    background: url(../../assets/trees.jpeg) center no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+.third-desc__style{
+    background: url(../../assets/car.jpeg) center no-repeat;
+    background-size: cover;
+    height: 80vh;
 }

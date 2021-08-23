@@ -12,8 +12,8 @@ const Header = () => {
                     <NavLink className="nav-list__item" to="/portfolio">
                         My Portfolio
                     </NavLink>
-                    <NavLink className="nav-list__item" to="/contact">
-                        Contact
+                    <NavLink className="nav-list__item" to="#">
+                        Blog
                     </NavLink>
                     <NavLink className="nav-list__item" to="/about">
                         About Me

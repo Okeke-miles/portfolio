@@ -1,0 +1,64 @@
+@use "../../partials/_colors" as *;
+@use "../../partials/_typography" as *;
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.image__style{
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.each-slide{
+    margin: 0rem;
+}
+
+.tools-container__style{
+    // background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tools-image__style{
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+}
+
+.tools__style{
+    padding: 0.5rem;
+    // color: $raisin-black;
+    color: $white;
+}
+
+.site-desc__style{
+    color: $white;
+}
+
+.desc__style{  
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border: 2px solid black;
+    background-color: $raisin-black;
+    padding: 1rem;
+    padding: 1rem 2rem;
+    // text-align: center;
+}
+
+.link__style{
+    text-decoration: none;
+    color: $white;
+}
+
+.click__style{
+    padding: 1rem 0;
+}
+

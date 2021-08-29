@@ -18,7 +18,26 @@ const Header = () => {
                     <NavLink className="nav-list__item" to="/about">
                         About Me
                     </NavLink>
-                </div>               
+                </div>  
+                <div className="dropdown">
+                    <div className="dropdown-button__style">
+                        <button className="dropbtn">Menu</button>
+                    </div>
+                    <div class="dropdown-content">
+                        <NavLink className="menu-list__item" to="/">
+                            Home
+                        </NavLink>
+                        <NavLink className="menu-list__item" to="/portfolio">
+                            Portfolio
+                        </NavLink>
+                        <NavLink className="menu-list__item" to="#">
+                            Blog
+                        </NavLink>
+                        <NavLink className="menu-list__item" to="/about">
+                            About Me
+                        </NavLink>
+                    </div>
+                </div>             
             </nav>
         </div>
     )

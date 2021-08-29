@@ -1,5 +1,8 @@
 @use "../../partials/_colors" as *;
 @use "../../partials/_typography" as *;
+@use "../../partials/_variables" as *;
+@use "../../partials/_mixins" as *;
+
 
 *,
 *::before,
@@ -31,11 +34,76 @@
 }
 
 .nav-list__item{
-    // display: none;
-    // @include tablet{
-        // display: initial;
+    display: none;
+    @include tablet{
+        display: initial;
         text-decoration: none;
         margin-left:3rem;
         color: $raisin-black
-    //}
+    }
+}
+
+
+.menu-list__item{
+    text-decoration: none;
+    color: $white;
+    @include tablet{
+        display: none;
+    }
+}
+
+.dropbtn {
+    background-color: $white;
+    color: $raisin-black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 1000;
+    @include tablet{
+        display: none;
+    }
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: $raisin-black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+
+.dropdown-content a {
+    color: $white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-button__style{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+  
+.dropdown-content a:hover {
+    background-color: $white;
+    color: $raisin-black
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+
+.dropdown:hover .dropbtn {
+    background-color: $raisin-black;
+    color: $white;
 }

@@ -49,7 +49,7 @@ function Portfolio() {
                 <div className="tools-container__style">
                   <a className="link__style" href="https://github.com/Okeke-miles/Mayhort-Trivia" alt="trivia-link"><img className="tools-image__style" src={Github} alt="github" /></a>
                   <p className="tools__style">HTML5</p><p className="tools__style">SASS</p><p className="tools__style">JavaScript</p><p className="tools__style">React</p><p className="tools__style">Node.Js</p><p className="tools__style">Web APIs</p>
-                </div>
+              </div>
             </div>
           </div>
           <div className="each-slide">

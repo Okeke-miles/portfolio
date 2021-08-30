@@ -1,5 +1,7 @@
 @use "../../partials/_colors" as *;
 @use "../../partials/_typography" as *;
+@use "../../partials/_variables" as *;
+@use "../../partials/_mixins" as *;
 
 *,
 *::before,
@@ -10,13 +12,19 @@
 }
 
 .image__style{
-    height: 80vh;
-    width: 100vw;
+    height: 71vh;
+    width: 90%;
     background-size: cover;
+    margin-top: 1rem;
 }
 
 .each-slide{
     margin: 0rem;
+    @include tablet{
+    display: flex;
+    justify-content: space-between;
+  
+    }
 }
 
 .tools-container__style{
@@ -43,7 +51,7 @@
 }
 
 .desc__style{  
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     margin-top: 1rem;
     border: 2px solid black;
@@ -60,5 +68,14 @@
 
 .click__style{
     padding: 1rem 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+    animation: blinker 2s linear infinite;
 }
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
 

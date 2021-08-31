@@ -23,7 +23,7 @@ function Portfolio() {
         <div className="slide-container">
         <Slide>
           <div className="each-slide">
-            <div className="image__style" style={{'backgroundImage': `url(${Bandsite})`}}></div>
+            <div className="image__style" style={{'backgroundImage': `url(${Bandsite})` , 'width': '100%'}}></div>
             <div className="desc__style">
                 <p className="site-desc__style">Built a website for a (pseudo) music band. While building, I simulated a professional work environment. We were given mockups of the visual requirements of the website. I ensured I replicated all the visual features to the minutest detail.</p><a className="link__style" href="https://beesband.netlify.app/index.html" target="_blank" alt="website-link"> <p className="click__style">Click here for a tour!</p></a>
                 <div className="tools-container__style">
@@ -33,7 +33,7 @@ function Portfolio() {
             </div>
           </div>
           <div className="each-slide">
-            <div className="image__style" style={{'backgroundImage': `url(${Instock})`}}></div>
+            <div className="image__style" style={{'backgroundImage': `url(${Instock})` , 'width': '100%'}}></div>
             <div className="desc__style">
                 <p className="site-desc__style">Built a warehouse inventory management system as a Single Page Application. Tools used includes React, Node.JS, Sass, Git and Web APIs.</p><a className="link__style" target="_blank" href="https://instock-management.netlify.app/" alt="website-link"><p className="click__style"> Click here for a tour! </p> </a>
                 <div className="tools-container__style">
@@ -43,7 +43,8 @@ function Portfolio() {
             </div>
           </div>
           <div className="each-slide">
-            <div className="image__style" style={{'backgroundImage': `url(${Trivia})`}}></div>
+            {/* <div className="image__style trivia-image__style" style={{'backgroundImage': `url(${Trivia})`}}></div> */}
+            <div className="image__style" ><h1 className="trivia__style">Trivia Time <br></br>Test Your Knowledge<span className="emoji">🤔</span></h1></div>
             <div className="desc__style">
                 <p className="site-desc__style">Built an all-genre themed trivia game Single Page Application. It used a third- party API to generate genre neutral trivia questions for players. Tools used includes React, Node.JS, Sass, Git and Web APIs.</p><a className="link__style" href="https://maytrivia.netlify.app/" target="_blank" alt="website-link"> <p className="click__style"> Click here for a tour! </p> </a>
                 <div className="tools-container__style">
@@ -53,7 +54,7 @@ function Portfolio() {
             </div>
           </div>
           <div className="each-slide">
-            <div className="image__style" style={{'backgroundImage': `url(${WiiWatch})`}}></div>
+            <div className="image__style" style={{'backgroundImage': `url(${WiiWatch})`, 'width': '100%'}}></div>
             <div className="desc__style">
                 <p className="site-desc__style">I built a cinema-themed video player which enables people watch videos in-sync. In this project, I simulated a professional work environment. I made sketches of how the design would look before proceeding. I used a pseudo–Kanban Board to list tasks and tick them off based on completion. Tools used includes Sass, React, MongoDB, Express and Node.js. I also used several libraries such as Moment.js for time manipulation, React Player for video player, Fuse.js for my search bar and much more.</p><a className="link__style" href="https://www.loom.com/share/f82f5f56407f4d04981504c63d784663" target="_blank" alt="website-link"> <p className="click__style"> Click here for a tour! </p></a>
                 <div className="tools-container__style">

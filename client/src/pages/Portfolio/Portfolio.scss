@@ -13,9 +13,15 @@
 
 .image__style{
     height: 71vh;
-    width: 90%;
+    width: 100vw;
     background-size: cover;
-    margin-top: 1rem;
+    
+    @include tablet{
+        height: 71vh;
+        width: 90%;
+        background-size: cover;
+        margin-top: 1rem;
+    }
 }
 
 .each-slide{

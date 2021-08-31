@@ -25,7 +25,7 @@ function Portfolio() {
           <div className="each-slide">
             <div className="image__style" style={{'backgroundImage': `url(${Bandsite})`}}></div>
             <div className="desc__style">
-                <p className="site-desc__style">Built a website for a (pseudo) music band. While building, I simulated a professional work environment. We were given mockups of the visual requirements of the website. I ensured I replicated all the visual features to the minutest detail.</p><a className="link__style" href="https://confident-einstein-e65e4b.netlify.app/index.html" target="_blank" alt="website-link"> <p className="click__style">Click here for a tour!</p></a>
+                <p className="site-desc__style">Built a website for a (pseudo) music band. While building, I simulated a professional work environment. We were given mockups of the visual requirements of the website. I ensured I replicated all the visual features to the minutest detail.</p><a className="link__style" href="https://beesband.netlify.app/index.html" target="_blank" alt="website-link"> <p className="click__style">Click here for a tour!</p></a>
                 <div className="tools-container__style">
                   <a className="link__style" href="https://github.com/Okeke-miles/Bandsite" alt="bandsite-link"><img className="tools-image__style" src={Github} alt="github" /></a>
                   <p className="tools__style">HTML5</p><p className="tools__style">SASS</p><p className="tools__style">JavaScript</p>
@@ -35,7 +35,7 @@ function Portfolio() {
           <div className="each-slide">
             <div className="image__style" style={{'backgroundImage': `url(${Instock})`}}></div>
             <div className="desc__style">
-                <p className="site-desc__style">Built a warehouse inventory management system as a Single Page Application. Tools used includes React, Node.JS, Sass, Git and Web APIs.</p><a className="link__style" target="_blank" href="https://hungry-davinci-037940.netlify.app/" alt="website-link"><p className="click__style"> Click here for a tour! </p> </a>
+                <p className="site-desc__style">Built a warehouse inventory management system as a Single Page Application. Tools used includes React, Node.JS, Sass, Git and Web APIs.</p><a className="link__style" target="_blank" href="https://instock-management.netlify.app/" alt="website-link"><p className="click__style"> Click here for a tour! </p> </a>
                 <div className="tools-container__style">
                   <a className="link__style" href="https://github.com/Okeke-miles/instock-inventory" alt="instock-link"><img className="tools-image__style" src={Github} alt="github" /></a>
                   <p className="tools__style">HTML5</p><p className="tools__style">SASS</p><p className="tools__style">JavaScript</p> <p className="tools__style">React</p><p className="tools__style">Figma</p><p className="tools__style">Node.Js</p>
@@ -45,7 +45,7 @@ function Portfolio() {
           <div className="each-slide">
             <div className="image__style" style={{'backgroundImage': `url(${Trivia})`}}></div>
             <div className="desc__style">
-                <p className="site-desc__style">Built an all-genre themed trivia game Single Page Application. It used a third- party API to generate genre neutral trivia questions for players. Tools used includes React, Node.JS, Sass, Git and Web APIs.</p><a className="link__style" href="https://jolly-hawking-c2984c.netlify.app/" target="_blank" alt="website-link"> <p className="click__style"> Click here for a tour! </p> </a>
+                <p className="site-desc__style">Built an all-genre themed trivia game Single Page Application. It used a third- party API to generate genre neutral trivia questions for players. Tools used includes React, Node.JS, Sass, Git and Web APIs.</p><a className="link__style" href="https://maytrivia.netlify.app/" target="_blank" alt="website-link"> <p className="click__style"> Click here for a tour! </p> </a>
                 <div className="tools-container__style">
                   <a className="link__style" href="https://github.com/Okeke-miles/Mayhort-Trivia" alt="trivia-link"><img className="tools-image__style" src={Github} alt="github" /></a>
                   <p className="tools__style">HTML5</p><p className="tools__style">SASS</p><p className="tools__style">JavaScript</p><p className="tools__style">React</p><p className="tools__style">Node.Js</p><p className="tools__style">Web APIs</p>

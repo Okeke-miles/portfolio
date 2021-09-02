@@ -1,0 +1,31 @@
+@use "../../partials/_colors" as *;
+@use "../../partials/_typography" as *;
+@use "../../partials/_variables" as *;
+@use "../../partials/_mixins" as *;
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.blog-title__style{
+    color: $raisin-black; 
+    font-size: 2.5rem;
+    margin: 5rem 0;
+    padding-bottom: 10rem;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    animation: type 4s steps(60, end); 
+  }
+  
+  @keyframes type{ 
+    from { width: 0; } 
+  } 
+
+.blog-container{
+    height: 100%;
+}

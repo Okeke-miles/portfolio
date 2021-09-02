@@ -12,7 +12,7 @@ const Header = () => {
                     <NavLink className="nav-list__item" to="/portfolio">
                         My Portfolio
                     </NavLink>
-                    <NavLink className="nav-list__item" to="#">
+                    <NavLink className="nav-list__item" to="/blog">
                         Blog
                     </NavLink>
                     <NavLink className="nav-list__item" to="/about">
@@ -30,7 +30,7 @@ const Header = () => {
                         <NavLink className="menu-list__item" to="/portfolio">
                             Portfolio
                         </NavLink>
-                        <NavLink className="menu-list__item" to="#">
+                        <NavLink className="menu-list__item" to="/blog">
                             Blog
                         </NavLink>
                         <NavLink className="menu-list__item" to="/about">

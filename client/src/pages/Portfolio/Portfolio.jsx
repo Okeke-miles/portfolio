@@ -43,7 +43,6 @@ function Portfolio() {
             </div>
           </div>
           <div className="each-slide">
-            {/* <div className="image__style trivia-image__style" style={{'backgroundImage': `url(${Trivia})`}}></div> */}
             <div className="image__style" ><h1 className="trivia__style">Trivia Time <br></br>Test Your Knowledge<span className="emoji">🤔</span></h1></div>
             <div className="desc__style">
                 <p className="site-desc__style">Built an all-genre themed trivia game Single Page Application. It used a third- party API to generate genre neutral trivia questions for players. Tools used includes React, Node.JS, Sass, Git and Web APIs.</p><a className="link__style" href="https://maytrivia.netlify.app/" target="_blank" alt="website-link"> <p className="click__style"> Click here for a tour! </p> </a>

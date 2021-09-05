@@ -11,6 +11,7 @@ import Github from "../../assets/github.png"
 
 function Portfolio() {
 
+  //This is to use a react slider which slides through images
     const slideImages = [
         {Bandsite},
         {Instock},

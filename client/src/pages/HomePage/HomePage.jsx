@@ -5,6 +5,8 @@ import "../HomePage/HomePage.scss"
 
 function HomePage() {
 
+    //Used a react fade through to fade through several banner images.
+
     return (
         <div>
             <div className="slide-container">

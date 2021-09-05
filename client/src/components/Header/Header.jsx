@@ -2,6 +2,8 @@ import "../Header/Header.scss"
 import { NavLink } from 'react-router-dom'
 
 const Header = () => {
+
+    //Also created a portion for responsive design. Used a hamburger mobile navigation bar.
     return (
         <div className="header-container">
             <nav className="page-header">
@@ -19,6 +21,7 @@ const Header = () => {
                         About Me
                     </NavLink>
                 </div>  
+                
                 <div className="dropdown">
                     <div className="dropdown-button__style">
                         <button className="dropbtn">Menu</button>

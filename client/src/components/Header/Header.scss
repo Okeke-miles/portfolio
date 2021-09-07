@@ -24,6 +24,8 @@
 
 .page-header__wrapper a:hover {
     background-color: $raisin-black;
+    border-radius: 5px;
+    padding: 4px;
     color: $white;
 }
 
@@ -53,12 +55,13 @@
 
 .dropbtn {
     background-color: $white;
+    border-radius: 5px;
     color: $raisin-black;
     padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
-  }
+}
   
 .dropdown {
     position: relative;
@@ -73,6 +76,8 @@
     display: none;
     position: absolute;
     background-color: $raisin-black;
+    padding: 4px;
+    border-radius: 5px;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -94,7 +99,9 @@
   
 .dropdown-content a:hover {
     background-color: $white;
-    color: $raisin-black
+    color: $raisin-black;
+    padding: 4px;
+    border-radius: 5px;
 }
   
 .dropdown:hover .dropdown-content {
@@ -104,5 +111,7 @@
 
 .dropdown:hover .dropbtn {
     background-color: $raisin-black;
+    border-radius: 5px;
+    padding: 4px;
     color: $white;
 }

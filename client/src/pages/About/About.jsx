@@ -23,7 +23,7 @@ function About() {
             <div className="about-desc__style">
                     <p>Hi there, my name is Frank; a Software Engineer turned Product Manager. In my previous life, I also worked as a commercial lawyer. My transition to software engineering can be encapsulated in one word: creation. I have always been a builder. Working as a corporate commercial lawyer for tech startups exposed me to a new world. </p>
 
-                    <p className="cont-desc__style">In Web Development, you are only limited by your thoughts and mine are limitless. Welcome to my world. Do not hesitate to contact me if you want to collaborate on a project or you need someone to act as a springboard for your crazy ideas.</p>
+                    <p className="cont-desc__style">In Web Development, you are only limited by your thoughts and mine are limitless. My journey into Product Management is filled with learnings from years of experience as a commercial lawyer dealing with clients and as a software engineer building for clients. My interests include legaltech, fintech and sports. Do not hesitate to contact me if you want to collaborate on a project or you need someone to act as a springboard for your crazy ideas.</p>
             </div>
             {/* <div className="about-container__style">
                 <div className="flip-box__style">

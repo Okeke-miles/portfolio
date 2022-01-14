@@ -21,7 +21,7 @@ function About() {
                 <h1 className= "header-title__style">About Me</h1>
             </header>
             <div className="about-desc__style">
-                    <p>Hi there, my name is Frank; a Corporate Commercial Lawyer turned Software Engineer. My transition from a law career can be encapsulated in one word: creation. I have always been a builder. Working as a corporate commercial lawyer for tech startups exposed me to a new world. </p>
+                    <p>Hi there, my name is Frank; a Software Engineer turned Product Manager. In my previous life, I also worked as a commercial lawyer. My transition to software engineering can be encapsulated in one word: creation. I have always been a builder. Working as a corporate commercial lawyer for tech startups exposed me to a new world. </p>
 
                     <p className="cont-desc__style">In Web Development, you are only limited by your thoughts and mine are limitless. Welcome to my world. Do not hesitate to contact me if you want to collaborate on a project or you need someone to act as a springboard for your crazy ideas.</p>
             </div>
